@@ -6,7 +6,7 @@ import carbon from "./carbon.png";
 export default function SSRComponent() {
   return (
     <div className={styles.wrapper}>
-      <h2>And this one is desabled for ssr</h2>
+      <h2>And this one is also loaded with the page separated to the bundle, but it's disabled for SSR</h2>
       <p>
         So it'll not appear on the source code, you can check! Look for this
         entire sentence, or even "Rick Backer, the wilder one" which is the

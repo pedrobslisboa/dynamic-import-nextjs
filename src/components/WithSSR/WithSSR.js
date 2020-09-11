@@ -7,7 +7,7 @@ export default function Viago() {
   return (
     <div className={styles.wrapper}>
       <h2>
-        This component is loaded with the page dynamicly and its ssr friendly:
+        This component is loaded with the page separated to the bundle and its SSR friendly:
       </h2>
       <p>
         Then you can check

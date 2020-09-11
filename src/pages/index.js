@@ -12,7 +12,7 @@ const WithoutSSR = dynamic(() => import("../components/WithoutSSR"), {
 const HereIsJonny = dynamic(() => import("../components/HereIsJonny"));
 
 export default function Home() {
-  const [isBroked, setIsBroked] = useState(false);
+  const [isBroke, setIsBroke] = useState(false);
 
   return (
     <div>
@@ -25,8 +25,11 @@ export default function Home() {
       <>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            This is a dynamic import Nextjs sample{` `}
-            <a href="https://github.com/pedrobslisboa/dynamic-import-nextjs" target="_blank">
+            Dynamic import Nextjs sample.{` `}
+            <a
+              href="https://github.com/pedrobslisboa/dynamic-import-nextjs"
+              target="_blank"
+            >
               <img src={github} />
             </a>
           </h1>
@@ -35,20 +38,22 @@ export default function Home() {
             <div>
               <div className={styles.flex}>
                 <h2>
-                  Let's start with a simple lazy require example of a react
-                  componente
+                  Let's start with a simple lazy require an example of a react
+                  component
                 </h2>
                 <p>
-                It supposes to load the bundle of this component only after you click the button. You can follow the loading on the network tab on dev tools.
+                  It supposes to load the bundle of this component only after
+                  you click the button. You can follow the loading on the
+                  network tab on dev tools.
                 </p>
                 <button
                   className={styles.button}
-                  onClick={() => setIsBroked(true)}
+                  onClick={() => setIsBroke(true)}
                 >
                   Break the door
                 </button>
                 <div className={styles.image}>
-                  {!isBroked ? (
+                  {!isBroke ? (
                     <img height="200" width="300" src={breakingdoor} />
                   ) : (
                     <HereIsJonny />
