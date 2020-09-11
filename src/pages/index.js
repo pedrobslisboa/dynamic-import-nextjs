@@ -25,7 +25,7 @@ export default function Home() {
       <>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            This is a danymic import Nextjs sample{` `}
+            This is a dynamic import Nextjs sample{` `}
             <a href="https://github.com/pedrobslisboa/dynamic-import-nextjs" target="_blank">
               <img src={github} />
             </a>
