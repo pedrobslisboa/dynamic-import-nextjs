@@ -38,7 +38,7 @@ export default function Home() {
             <div>
               <div className={styles.flex}>
                 <h2>
-                  Let's start with a simple lazy require an example of a react
+                  Let's start with a simple lazy require example of a react
                   component
                 </h2>
                 <p>
