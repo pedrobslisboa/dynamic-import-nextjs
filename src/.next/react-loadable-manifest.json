@@ -1,0 +1,74 @@
+{
+  "../components/HereIsJonny": [
+    {
+      "id": "./components/HereIsJonny/HeresJonny.js",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./components/HereIsJonny/heresJonny.gif",
+      "file": "static/chunks/3.js"
+    },
+    {
+      "id": "./components/HereIsJonny/index.js",
+      "file": "static/chunks/3.js"
+    }
+  ],
+  "../components/WithSSR": [
+    {
+      "id": "../node_modules/css-loader/dist/cjs.js?!../node_modules/next/dist/compiled/postcss-loader/index.js?!./components/WithSSR/WithSSR.module.css",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/WithSSR/WithSSR.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/WithSSR/WithSSR.module.css",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/WithSSR/carbon.png",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/WithSSR/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./components/WithSSR/viago.gif",
+      "file": "static/chunks/1.js"
+    }
+  ],
+  "../components/WithoutSSR": [
+    {
+      "id": "../node_modules/css-loader/dist/cjs.js?!../node_modules/next/dist/compiled/postcss-loader/index.js?!./components/WithoutSSR/WithoutSSR.module.css",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./components/WithoutSSR/WithoutSSR.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./components/WithoutSSR/WithoutSSR.module.css",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./components/WithoutSSR/carbon.png",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./components/WithoutSSR/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./components/WithoutSSR/rickBaker.webp",
+      "file": "static/chunks/2.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "../node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
+    }
+  ]
+}

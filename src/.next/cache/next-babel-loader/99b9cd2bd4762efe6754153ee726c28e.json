@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from \"./HeresJonny\";","map":{"version":3,"sources":["/home/pedro/estudos/loadable-test/src/components/HereIsJonny/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,cAAxB","sourcesContent":["export { default } from \"./HeresJonny\";\n"]},"metadata":{},"sourceType":"module"}

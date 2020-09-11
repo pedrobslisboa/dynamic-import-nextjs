@@ -1,0 +1,16 @@
+{
+  "name": "loadable-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev src",
+    "build": "next build src",
+    "start": "next start src"
+  },
+  "dependencies": {
+    "next": "9.5.3",
+    "next-images": "^1.4.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
